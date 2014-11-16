@@ -6,10 +6,10 @@
         id        = "com.phonegap.MyNtutNewApp_102AC1007"
         version   = "1.0.0">
 
-    <name>102AC1007 APP</name>
+    <name>Mushroom APP</name>
 
     <description>
-        102AC1007 APP sample application that responds to the deviceready event.
+        Mushroom APP sample application that responds to the deviceready event.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
