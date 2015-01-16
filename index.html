@@ -26,18 +26,20 @@ function AlertIt(){
 	var myrandom = Math.round(Math.random()*2)
 	var messages = new Array()
 	messages[0] = "p5js！！！"
-	messages[1] = "processing！！！"
-	messages[2] = "3schools！！！"
-	messages[3] = "phonegap！！！"
-	messages[4] = "github！！！"
+    messages[1] = "processing！！！"
+    messages[2] = "3schools！！！"
+    messages[3] = "phonegap！！！"
+    messages[4] = "github！！！"
 	messages[5] = "老師這是懺悔信，不好意思下半學期進度沒跟上又不好意思麻煩老師和同學教我...，做不出理想的APP，所以只把期中作業進化成集合程式網路資源的版本，真心懺悔，下學期老師的課不管是學新的東西或是延伸我都會努力跟上進度的，最後謝謝老師這學期用心的教導。"
+	messages[6] = "老師這是懺悔信，不好意思下半學期進度沒跟上又不好意思麻煩老師和同學教我...，做不出理想的APP，所以只把期中作業進化成集合程式網路資源的版本，真心懺悔，下學期老師的課不管是學新的東西或是延伸我都努力跟上進度的，最後謝謝老師這學期用心的教導。"
 	var links = new Array()
 	links[0] = "http://p5js.org/"
 	links[1] = "https://processing.org/"
 	links[2] = "http://www.w3schools.com/"
 	links[3] = "https://build.phonegap.com"
 	links[4] = "https://github.com/"
-	links[4] = "http://dab.tw/"
+	links[5] = "http://dab.tw/"
+	links[6] = "http://dab.tw/"
 	var answer = confirm(messages[myrandom])
 	if (answer){
 		window.location = links[myrandom]
