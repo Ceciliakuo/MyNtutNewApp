@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>σ`∀´)σ神奇菇菇yo</title>
+<title>Favourable APP</title>
 <link rel="stylesheet" type="text/css" href="css/csshake.min.css">
 <link type="text/css" href="css/csshake.min.css">
 <style type="text/css">
 body {
 	background-image: url();
 	background-repeat: repeat;
-	background-color: #FFC;	
+	background-color: #3B3B3B;	
 }
 html, body , .outer, .inner {
     height:100%;
@@ -25,15 +25,17 @@ html, body , .outer, .inner {
 function AlertIt(){
 	var myrandom = Math.round(Math.random()*2)
 	var messages = new Array()
-	messages[0] = "想換換心情嗎？"
-	messages[1] = "不知道穿這樣夠不夠暖嗎？"
-	messages[2] = "閒閒的嗎？那來看個影片吧！"
-	messages[3] = "要不要聽我的主題曲！！！"
+	messages[0] = "p5js！！！"
+	messages[1] = "processing！！！"
+	messages[2] = "3schools！！！"
+	messages[3] = "phonegap！！！"
+	messages[4] = "github！！！"
 	var links = new Array()
-	links[0] = "https://www.youtube.com/watch?v=hyrZEYRS_EY"
-	links[1] = "http://www.cwb.gov.tw/V7/index.htm"
-	links[2] = "http://www.youtube.com"
-	links[3] = "https://www.youtube.com/watch?v=nIDpaMauUwU"
+	links[0] = "http://p5js.org/"
+	links[1] = "https://processing.org/"
+	links[2] = "http://www.w3schools.com/"
+	links[3] = "https://build.phonegap.com"
+	links[4] = "https://github.com/"
 	var answer = confirm(messages[myrandom])
 	if (answer){
 		window.location = links[myrandom]
@@ -46,12 +48,10 @@ function AlertIt(){
     <td align="center" valign="middle">
 		<p>Hello, world. - from CeciliaKuo ;)</p>
         <p><a href="guestbook.html">guestbook</a></p>
-        <p><a href="shake.html">shake test</a></p>
 		<p><a href="media.html">Music</a></p>
         <div class="shake shake-vertical">
 		<a href="javascript:AlertIt();">
 			<img src="images/teemo_is_on_duty.png" width="33%" height="auto">
-		<p>Click!</p>
 	  </a>
 	</td>
   </tr>
